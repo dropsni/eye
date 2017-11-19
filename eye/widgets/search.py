@@ -8,6 +8,7 @@ import logging
 import os
 
 from ..three import str
+from ..qt import Signal, Slot
 from .. import consts
 from .helpers import WidgetMixin
 from ..helpers import file_search, buffers
